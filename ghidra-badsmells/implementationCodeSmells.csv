@@ -1,0 +1,271 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+cmd,ghidra.app.cmd.analysis,SharedReturnAnalysisCmd,applyTo,Complex Conditional
+cmd,ghidra.app.cmd.analysis,SharedReturnAnalysisCmd,applyTo,Complex Conditional
+cmd,ghidra.app.cmd.analysis,SharedReturnAnalysisCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.analysis,SharedReturnAnalysisCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.analysis,SharedReturnAnalysisCmd,applyTo,Long Method
+cmd,ghidra.app.cmd.analysis,SharedReturnAnalysisCmd,processFunctionJumpReferences,Complex Method
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,setFunction,Complex Method
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,setFunction,Empty catch clause
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,setFunction,Empty catch clause
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,setFunction,Empty catch clause
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,findVar,Complex Conditional
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,setLabel,Complex Conditional
+cmd,ghidra.app.cmd.comments,CodeUnitInfoPasteCmd,createSymbols,Long Parameter List
+cmd,ghidra.app.cmd.comments,SetCommentsCmd,SetCommentsCmd,Long Parameter List
+cmd,ghidra.app.cmd.data,CreateDataBackgroundCmd,createData,Long Parameter List
+cmd,ghidra.app.cmd.data,CreateDataBackgroundCmd,createData,Magic Number
+cmd,ghidra.app.cmd.data,CreateDataCmd,CreateDataCmd,Long Statement
+cmd,ghidra.app.cmd.data,CreateDataCmd,CreateDataCmd,Long Statement
+cmd,ghidra.app.cmd.data,CreateDataCmd,CreateDataCmd,Long Statement
+cmd,ghidra.app.cmd.data,CreateDataInStructureBackgroundCmd,CreateDataInStructureBackgroundCmd,Long Parameter List
+cmd,ghidra.app.cmd.data,CreateDataInStructureBackgroundCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.data,CreateDataInStructureBackgroundCmd,applyTo,Long Statement
+cmd,ghidra.app.cmd.data,CreateDataInStructureCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.data,CreateStructureCmd,initializeStructureData,Long Statement
+cmd,ghidra.app.cmd.disassemble,ArmDisassembleCommand,applyTo,Complex Method
+cmd,ghidra.app.cmd.disassemble,ArmDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,ArmDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,ArmDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,DisassembleCommand,Long Identifier
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,doDisassembly,Complex Conditional
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,doDisassembly,Complex Method
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,doDisassembly,Empty catch clause
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,doDisassembly,Long Identifier
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,doDisassembly,Long Statement
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,doDisassembly,Magic Number
+cmd,ghidra.app.cmd.disassemble,DisassembleCommand,analyzeIfNeeded,Complex Conditional
+cmd,ghidra.app.cmd.disassemble,Hcs12DisassembleCommand,applyTo,Complex Method
+cmd,ghidra.app.cmd.disassemble,MipsDisassembleCommand,applyTo,Complex Method
+cmd,ghidra.app.cmd.disassemble,MipsDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,MipsDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,MipsDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,PowerPCDisassembleCommand,applyTo,Complex Method
+cmd,ghidra.app.cmd.disassemble,PowerPCDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,PowerPCDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,PowerPCDisassembleCommand,applyTo,Magic Number
+cmd,ghidra.app.cmd.disassemble,X86_64DisassembleCommand,applyTo,Long Statement
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,canApply,Empty catch clause
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,markup,Magic Number
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,markupCFM,Long Statement
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,markupCFM,Magic Number
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,markupResourceData,Magic Number
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,markupResourceData,Magic Number
+cmd,ghidra.app.cmd.formats,AppleSingleDoubleBinaryAnalysisCommand,markupResourceData,Magic Number
+cmd,ghidra.app.cmd.formats,CoffArchiveBinaryAnalysisCommand,canApply,Empty catch clause
+cmd,ghidra.app.cmd.formats,CoffBinaryAnalysisCommand,processStrings,Magic Number
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,processSectionHeaders,Complex Conditional
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,processSectionHeaders,Empty catch clause
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,processSectionHeaders,Long Statement
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,processSectionHeaders,Long Statement
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,processDynamic,Long Statement
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,processDynamic,Magic Number
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,addDynamicStringComment,Long Parameter List
+cmd,ghidra.app.cmd.formats,ElfBinaryAnalysisCommand,addDynamicReference,Empty catch clause
+cmd,ghidra.app.cmd.formats,MachoBinaryAnalysisCommand,canApply,Empty catch clause
+cmd,ghidra.app.cmd.formats,MachoBinaryAnalysisCommand,analysisWorkerCallback,Long Statement
+cmd,ghidra.app.cmd.formats,PefBinaryAnalysisCommand,processSectionData,Magic Number
+cmd,ghidra.app.cmd.formats,PefBinaryAnalysisCommand,processLoaderExports,Complex Method
+cmd,ghidra.app.cmd.formats,PefBinaryAnalysisCommand,processLoaderExports,Magic Number
+cmd,ghidra.app.cmd.formats,PefBinaryAnalysisCommand,processLoaderExports,Magic Number
+cmd,ghidra.app.cmd.formats,PefBinaryAnalysisCommand,processLoaderRelocations,Long Statement
+cmd,ghidra.app.cmd.formats,PefBinaryAnalysisCommand,processImportedSymbols,Long Statement
+cmd,ghidra.app.cmd.formats,PortableExecutableBinaryAnalysisCommand,canApply,Empty catch clause
+cmd,ghidra.app.cmd.formats,PortableExecutableBinaryAnalysisCommand,canApply,Magic Number
+cmd,ghidra.app.cmd.formats,PortableExecutableBinaryAnalysisCommand,processSymbols,Long Statement
+cmd,ghidra.app.cmd.formats,PortableExecutableBinaryAnalysisCommand,processStringTable,Magic Number
+cmd,ghidra.app.cmd.function,AddMemoryParameterCommand,AddMemoryParameterCommand,Long Parameter List
+cmd,ghidra.app.cmd.function,AddMemoryVarCmd,AddMemoryVarCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,AddRegisterParameterCommand,AddRegisterParameterCommand,Long Parameter List
+cmd,ghidra.app.cmd.function,AddRegisterVarCmd,AddRegisterVarCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,AddStackParameterCommand,AddStackParameterCommand,Long Parameter List
+cmd,ghidra.app.cmd.function,AddStackVarCmd,AddStackVarCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,ApplyFunctionDataTypesCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,ApplyFunctionDataTypesCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,getSymbols,Complex Conditional
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,checkForSymbol,Long Parameter List
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,checkDoApplyFunctionDefinition,Complex Method
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,applyFunction,Long Statement
+cmd,ghidra.app.cmd.function,ApplyFunctionDataTypesCmd,applyFunction,Long Statement
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,ApplyFunctionSignatureCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,ApplyFunctionSignatureCmd,Long Statement
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,ApplyFunctionSignatureCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,getCallingConvention,Complex Conditional
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,updateStackPurgeSize,Complex Method
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,updateStackPurgeSize,Magic Number
+cmd,ghidra.app.cmd.function,ApplyFunctionSignatureCmd,setName,Long Statement
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,CallDepthChangeInfo,Long Parameter List
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getCallChange,Empty catch clause
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getDepth,Empty catch clause
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getInstructionStackDepthChange,Complex Method
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getInstructionStackDepthChange,Long Method
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getInstructionStackDepthChange,Long Statement
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getInstructionStackDepthChange,Missing default
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,followFlows,Complex Conditional
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,followFlows,Complex Method
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,followFlows,Empty catch clause
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,followFlows,Magic Number
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,followFlows,Magic Number
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,evaluateContextBefore,Complex Conditional
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,evaluateContextBefore,Empty catch clause
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getStackOffset,Complex Method
+cmd,ghidra.app.cmd.function,CallDepthChangeInfo,getRegDepth,Magic Number
+cmd,ghidra.app.cmd.function,CaptureFunctionDataTypesCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,CreateFunctionCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,CreateFunctionCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,createFunction,Complex Method
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,createFunction,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,createFunction,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,createFunction,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,subtractBodyFromExisting,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,subtractBodyFromExisting,Long Identifier
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,subtractBodyFromExisting,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,findFunctionEntry,Long Statement
+cmd,ghidra.app.cmd.function,CreateFunctionCmd,fixupFunctionBody,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,computeThunkBody,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,computeThunkBody,Long Statement
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getReferencedFunction,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getReferencedFunction,Complex Method
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFirstBlockJumpCall,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFirstBlockJumpCall,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,resolveComputableFlow,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,resolveComputableFlow,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,resolveComputableFlow,Long Statement
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,evaluateReference,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,evaluateReference,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,propogateCodeMode,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getThunkedAddr,Complex Method
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getThunkedAddr,Long Identifier
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getThunkedAddr,Long Statement
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getThunkedAddr,Magic Number
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getThunkedExternalFunctionAddress,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getThunkedExternalFunctionAddress,Empty catch clause
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,isLocalBranch,Magic Number
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFlowingAddrFromFinalState,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFlowingAddrFromFinalState,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFlowingAddrFromFinalState,Long Statement
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getSimpleFlow,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getSimpleFlow,Long Statement
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,addRegisterUsage,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,addRegisterUsage,Complex Method
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,addRegisterUsage,Long Parameter List
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,addRegisterUsage,Long Statement
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,containsRegister,Magic Number
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFlowingAddress,Complex Conditional
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFlowingAddress,Complex Method
+cmd,ghidra.app.cmd.function,CreateThunkFunctionCmd,getFlowingAddress,Long Statement
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,applyTo,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Complex Method
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setupNearFarModels,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,analyzeFunction,Complex Conditional
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,analyzeFunction,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,analyzeFunction,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setPrototypeModel,Complex Method
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setPrototypeModel,Empty catch clause
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setPrototypeModel,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setPrototypeModel,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setPrototypeModel,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,setPrototypeModel,Magic Number
+cmd,ghidra.app.cmd.function,FunctionPurgeAnalysisCmd,findPurgeInstruction,Magic Number
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,analyzeFunction,Complex Method
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,analyzeFunction,Magic Number
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,analyzeFunction,Magic Number
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Complex Method
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,createStackPointerVariables,Magic Number
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,dataReference,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,indirectDataReference,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,resolvedFlow,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,stackReference,Complex Method
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,stackReference,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,stackReference,Long Statement
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,stackReference,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,unresolvedIndirectFlow,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionResultStateStackAnalysisCmd,replaceInputVarnodes,Long Parameter List
+cmd,ghidra.app.cmd.function,FunctionStackAnalysisCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,FunctionStackAnalysisCmd,analyzeFunction,Complex Method
+cmd,ghidra.app.cmd.function,FunctionStackAnalysisCmd,defineFuncVariable,Long Statement
+cmd,ghidra.app.cmd.function,FunctionStackAnalysisCmd,getRefSize,Magic Number
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,analyzeFunction,Complex Method
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,isProtectedVariable,Long Statement
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,createStackPointerVariables,Complex Method
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,createStackPointerVariables,Magic Number
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,createStackPointerVariables,Magic Number
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,checkForStackOffset,Complex Method
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,extendOffset,Magic Number
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,extendOffset,Magic Number
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackLocalVariables,Empty catch clause
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackLocalVariables,Long Statement
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackParameters,Complex Method
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackParameters,Empty catch clause
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackParameters,Empty catch clause
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackParameters,Long Statement
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackParameters,Long Statement
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addStackParameters,Long Statement
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addMissingParameters,Complex Conditional
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addMissingParameters,Complex Method
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,addMissingParameters,Long Parameter List
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,getStackOpIndex,Complex Method
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,defineFuncVariable,Long Parameter List
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,defineFuncVariable,Long Statement
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,getRefSize,Magic Number
+cmd,ghidra.app.cmd.function,NewFunctionStackAnalysisCmd,accumulateVariable,Complex Method
+cmd,ghidra.app.cmd.function,SetVariableDataTypeCmd,SetVariableDataTypeCmd,Long Parameter List
+cmd,ghidra.app.cmd.function,SetVariableDataTypeCmd,applyTo,Complex Conditional
+cmd,ghidra.app.cmd.function,SetVariableDataTypeCmd,applyTo,Long Statement
+cmd,ghidra.app.cmd.label,DemanglerCmd,doDemangle,Long Statement
+cmd,ghidra.app.cmd.label,RenameLabelCmd,RenameLabelCmd,Long Parameter List
+cmd,ghidra.app.cmd.label,RenameLabelCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.label,SetLabelPrimaryCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.memory,AbstractAddMemoryBlockCmd,AbstractAddMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.memory,AddBitMappedMemoryBlockCmd,AddBitMappedMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.memory,AddByteMappedMemoryBlockCmd,AddByteMappedMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.memory,AddByteMappedMemoryBlockCmd,AddByteMappedMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.memory,AddFileBytesMemoryBlockCmd,AddFileBytesMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.memory,AddInitializedMemoryBlockCmd,AddInitializedMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.memory,AddUninitializedMemoryBlockCmd,AddUninitializedMemoryBlockCmd,Long Parameter List
+cmd,ghidra.app.cmd.module,AbstractModularizationCmd,AbstractModularizationCmd,Long Parameter List
+cmd,ghidra.app.cmd.module,AbstractModularizationCmd,rename,Empty catch clause
+cmd,ghidra.app.cmd.module,CreateDefaultTreeCmd,renameFragments,Empty catch clause
+cmd,ghidra.app.cmd.module,DominanceModularizationCmd,applyModel,Long Statement
+cmd,ghidra.app.cmd.module,ModuleAlgorithmCmd,applyTo,Complex Conditional
+cmd,ghidra.app.cmd.module,ModuleAlgorithmCmd,applyModel,Complex Method
+cmd,ghidra.app.cmd.module,ModuleAlgorithmCmd,cleanTree,Complex Method
+cmd,ghidra.app.cmd.module,ModuleAlgorithmCmd,cleanTree,Empty catch clause
+cmd,ghidra.app.cmd.module,RenameCmd,RenameCmd,Long Parameter List
+cmd,ghidra.app.cmd.module,SubroutineModelCmd,applyTo,Complex Conditional
+cmd,ghidra.app.cmd.module,SubroutineModelCmd,changeModel,Complex Method
+cmd,ghidra.app.cmd.refs,AddMemRefCmd,AddMemRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddMemRefCmd,AddMemRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddMemRefCmd,AddMemRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddMemRefsCmd,AddMemRefsCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddMemRefsCmd,getSmallestCodeUnitAt,Complex Conditional
+cmd,ghidra.app.cmd.refs,AddOffsetMemRefCmd,AddOffsetMemRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddRegisterRefCmd,AddRegisterRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddRegisterRefCmd,applyTo,Complex Method
+cmd,ghidra.app.cmd.refs,AddShiftedMemRefCmd,AddShiftedMemRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddStackRefCmd,AddStackRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,AddStackRefCmd,applyTo,Empty catch clause
+cmd,ghidra.app.cmd.refs,RemoveReferenceCmd,fixupReferencedVariable,Complex Conditional
+cmd,ghidra.app.cmd.refs,SetExternalRefCmd,SetExternalRefCmd,Long Parameter List
+cmd,ghidra.app.cmd.refs,SetExternalRefCmd,SetExternalRefCmd,Long Parameter List
